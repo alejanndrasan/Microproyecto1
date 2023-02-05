@@ -50,6 +50,11 @@ body {
     color:lavender;
 }
 
+.song:hover {
+    text-decoration: underline;
+    color:rgb(86, 17, 74);
+}
+
 .boton{
     font-size: 30px;
     color: white;
@@ -141,6 +146,7 @@ body {
     color: #5f285e;
     font-weight: bold;
     padding-bottom: 10px;
+    font-size: 20px;
 }
 
 
@@ -157,6 +163,66 @@ body {
     background-size: 1rem 1rem;
     background-repeat: no-repeat;
     }
+
+#aboutMe{
+    display: grid;
+    row-gap: 30px;
+    column-gap: 10px;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 2fr;
+}
+
+#fotoAle{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+#sobreMi{
+    color: #642a72;
+    padding-bottom: 5px;
+}
+
+.f{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.lilbox {
+    background-color: #f3e1ee;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(81, 45, 45, 0.2);
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "corto largo";
+    }
+
+.o{
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+.tituloChiqui{
+    font-size: medium;
+    padding-bottom: 15px;
+    color: #5f285e;
+}
+
+.song{
+    color:#642a72;
+
+}
+
+.books{
+    color: #642a72;
+}
+    
 
 @media screen and (max-width: 952px){
 
@@ -188,7 +254,15 @@ body {
         margin: 0 auto;
         grid-template-columns: 80%;
     }
-
+    #aboutMe{
+        display: grid;
+        row-gap: 30px;
+        column-gap: 10px;
+        width: 100%;
+        padding: 30px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 2fr;
+    }
 }
 
 @media screen and (max-width: 700px){
