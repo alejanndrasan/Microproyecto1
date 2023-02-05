@@ -8,7 +8,7 @@
     }
     
 body {
-    background-color: #f7e0e8;
+    background-color: lavender;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -30,6 +30,7 @@ body {
 .menu {
     float: right;
     margin-right: 20px;
+    z-index: 100px;
 }
 
 .menu-item {
@@ -82,7 +83,7 @@ body {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #aac9ce;
+        background: lavender;
         top:80px;
         left:-100%;
         text-align: center;
@@ -95,10 +96,11 @@ body {
     }
     .NavOp{
         font-size: 20px;
+        color: #c095e6;
     }
     .NavOp:hover {
         text-decoration: underline;
-        color:lavender;
+        color:cadetblue;
     }
 #Pmenu:checked ~.menu{
     left: 0;
