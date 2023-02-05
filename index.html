@@ -9,6 +9,7 @@
     <link rel="icon" type=“image/x-icon” href="bullet flor.png"> 
   </head>
   <body>
+
     <nav class="NavBar">
         <input type="checkbox" id="Pmenu">
         <label for="Pmenu" class="boton">
@@ -16,13 +17,31 @@
         </label>
         <label class="logo"> Ale's CV <3</label>
         <ul class="menu">
-            <li class = "menu-item"><a href="#Hero" class="NavOp" >Hero</a> </li>
             <li class = "menu-item"></li><a href="#Experience" class="NavOp" >Experience</a>
             <li class = "menu-item"><a href="#AboutMe" class="NavOp" >About Me</a></li>
             <li class = "menu-item"><a href="#Skills" class="NavOp" >Skills</a></li>
             <li class = "menu-item"><a href="#ContactMe" class="NavOp" >Contact Me</a></li>
         </ul>
     </nav>
-    <script src="index.js"></script>
+
+    <section class="page" id="Hero">
+    <div class="carrusel">
+        <div class="foto">
+            <img src="\fotis\cuy.jpg" alt="img" class="heroFoto">
+        </div>
+        <div class="foto">
+            <img src="\fotis\gatorta.jpg" alt="img" class="heroFoto">
+        </div>
+        <div class="foto">
+            <img src="\fotis\fantasmas parejas.jpg" alt="img" class="heroFoto">
+        </div>
+        <button class="btn next">></button>
+        <button class="btn prev"><</button>
+    </div>
+    </section>
+
+    
+    <script src="./index.js"></script>
   </body>
+
 </html>
