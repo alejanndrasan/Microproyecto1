@@ -112,6 +112,7 @@ body {
  color: #9d7dba;
  font-weight: bolder;
 }
+
 #Experience {
     display: grid;
     row-gap: 30px;
@@ -135,6 +136,28 @@ body {
     max-width: 100%;
 }
 
+.nombre{
+    text-align: center;
+    color: #5f285e;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+
+.element{
+    padding: 10px;
+}
+
+
+.techunit {
+    padding-left: 1.5rem;
+    background-image: url(bullet\ flor.png);
+    background-position: 0 0;
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+    }
+
 @media screen and (max-width: 952px){
     .logo{
         font-size: 30px;
@@ -155,6 +178,17 @@ body {
         text-decoration: underline;
         color: lavender;
     }
+    #Experience {
+        display: grid;
+        row-gap: 30px;
+        column-gap: 30px;
+        width: 100%;
+        padding: 30px;
+        margin: 0 auto;
+        grid-template-columns: 80%;
+        margin-left: 10%;
+    }
+    
 }
 
 @media screen and (max-width: 700px){
