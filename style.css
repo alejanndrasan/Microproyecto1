@@ -13,7 +13,7 @@ body {
 }
 
 .NavBar {
-    background-color: #c095e6;
+    background-color: #ab85cd;
     height: 80px;
     width: 100%;
     }
@@ -58,14 +58,6 @@ body {
     margin-right: 40px;
     cursor: pointer;
     display: none;
-}
-
-#Pmenu{
-    display: none;
-}
-
-.imgMenu{
-    padding-top: 20px;
 }
 
 
@@ -120,39 +112,69 @@ body {
     .logo{
         font-size: 30px;
         padding-left: 50px;
-    }
-    .NavOp{
-        font-size: 16px;
-    }
-    .boton{
-        display: block;
-    }
-    .menu{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: lavender;
-        top:80px;
-        left:-100%;
-        text-align: center;
-        transition: all .5s ;
         
     }
     .menu-item{
-        display: block;
+        display: inline-block;
         margin: 50px 0;
         line-height: 30px;
+        margin-top: 1px;
     }
     .NavOp{
-        font-size: 20px;
-        color: #c095e6;
+        font-size: 16px;
+        color: #f4f3f6;
     }
     .NavOp:hover {
         text-decoration: underline;
-        color: cadetblue;
+        color: lavender;
     }
-    #Pmenu:checked ~.menu{
-    left: 0;
-    }
-
 }
+
+@media screen and (max-width: 700px){
+ 
+    .logo{
+        font-size: 20px;
+        padding-left: 50px;
+        
+    }
+    .menu-item{
+        display: inline-block;
+        margin: 50px 0;
+        line-height: 30px;
+        margin-top: 1px;
+    }
+    .NavOp{
+        font-size: 15px;
+        color: #f4f3f6;
+    }
+    .NavOp:hover {
+        text-decoration: underline;
+        color: lavender;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .NavBar{
+     height: 150px;
+    }
+    
+     .logo{
+         font-size: 30px;
+         padding-left: 50px;
+         
+     }
+     .menu-item{
+         display: inline-block;
+         margin: 50px 0;
+         line-height: 30px;
+         margin-top: 1px;
+     }
+     .NavOp{
+         font-size: 15px;
+         color: #f4f3f6;
+     }
+     .NavOp:hover {
+         text-decoration: underline;
+         color: lavender;
+     }
+ }
