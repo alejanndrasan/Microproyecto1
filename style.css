@@ -13,7 +13,7 @@ body {
 }
 
 .NavBar {
-    background-color: #c095e6;
+    background-color: #ab85cd;
     height: 80px;
     width: 100%;
     }
@@ -24,8 +24,8 @@ body {
     line-height: 80px;
     padding: 0 50px;
     font-weight: bolder;
-
     }
+
 
 .menu {
     float: right;
@@ -67,6 +67,13 @@ body {
 .imgMenu{
     padding-top: 20px;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 
 @media (max-width: 952px){
     .logo{
