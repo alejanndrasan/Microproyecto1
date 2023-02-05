@@ -107,6 +107,33 @@ body {
     top: 45%;
     right: 2%;
   }
+.seccion {
+ text-align: center;
+ color: #9d7dba;
+ font-weight: bolder;
+}
+#Experience {
+    display: grid;
+    row-gap: 30px;
+    column-gap: 30px;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+    background-color: #f1b2df;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(81, 45, 45, 0.2);
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+
+.projectFoto{
+    max-width: 100%;
+}
 
 @media screen and (max-width: 952px){
     .logo{
