@@ -159,6 +159,8 @@ body {
     }
 
 @media screen and (max-width: 952px){
+
+
     .logo{
         font-size: 30px;
         padding-left: 50px;
@@ -183,12 +185,10 @@ body {
         row-gap: 30px;
         column-gap: 30px;
         width: 100%;
-        padding: 30px;
         margin: 0 auto;
         grid-template-columns: 80%;
-        margin-left: 10%;
     }
-    
+
 }
 
 @media screen and (max-width: 700px){
