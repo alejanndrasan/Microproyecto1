@@ -149,8 +149,6 @@ body {
     font-size: 20px;
 }
 
-
-
 .element{
     padding: 10px;
 }
@@ -203,6 +201,8 @@ body {
     "corto largo";
     }
 
+
+
 .o{
     font-size: medium;
     padding-bottom: 10px;
@@ -222,6 +222,14 @@ body {
 .books{
     color: #642a72;
 }
+
+
+.handle{
+    height: 40px;
+}
+
+
+
     
 
 @media screen and (max-width: 952px){
